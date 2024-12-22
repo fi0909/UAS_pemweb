@@ -1,0 +1,421 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar-brand img {
+    height: 30px;
+}
+
+.hero-section {
+    padding: 50px 0;
+}
+
+.hero-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+.hero-text {
+    margin-bottom: 30px;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #666;
+}
+
+.btn-primary {
+    background-color: #333;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.partners img {
+    max-height: 50px;
+    margin: 20px;
+}
+
+.service-title {
+    background-color: #ccff00;
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.service-subtitle {
+    font-size: 16px;
+    color: #666;
+    margin-left: 10px;
+}
+
+.custom-card {
+    border-radius: 20px;
+    background-color: #f5f5f5;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.highlight-text {
+    background-color: #ccff00;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.learn-more {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.learn-more i {
+    background-color: #000;
+    color: #ccff00;
+    border-radius: 50%;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.custom-card img {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 150px;
+}
+
+.promo-card {
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.promo-card h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.promo-card p {
+    font-size: 16px;
+    color: #000000;
+}
+
+.promo-card .btn-custom {
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.promo-card img {
+    max-width: 100%;
+}
+
+.card-container {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card {
+    border: none;
+    background-color: transparent;
+    text-align: left;
+}
+
+.card p {
+    color: #ffffff;
+}
+
+.card-divider {
+    border-left: 1px solid #ffffff;
+    height: 100%;
+    margin: 0 20px;
+}
+
+.learn-more {
+    color: #ccff00;
+    text-decoration: none;
+}
+
+.learn-more:hover {
+    text-decoration: underline;
+}
+
+.header-divider {
+    border-left: 1px solid #ffffff;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.highlight {
+    background-color: #ccff00;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.accordion-item {
+    border: none;
+    margin-bottom: 10px;
+}
+
+.accordion-button {
+    border-radius: 20px;
+    border: 2px solid #000;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 20px;
+    width: 100%;
+    text-align: left;
+    transition: all 0.3s ease;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #000;
+    background-color: #b2ff59;
+}
+
+.accordion-button::after {
+    font-size: 1.5rem;
+}
+
+.accordion-body {
+    font-size: 1rem;
+    padding: 20px;
+}
+
+.accordion-header {
+    margin-bottom: 10px;
+}
+
+.accordion-button.collapsed {
+    transition: all 0.3s ease;
+}
+
+.accordion-button:not(.collapsed) {
+    transition: all 0.3s ease;
+}
+
+.accordion-button:not(.collapsed)+.accordion-collapse {
+    transition: all 0.3s ease;
+}
+
+.accordion-button:not(.collapsed)+.accordion-collapse .accordion-body {
+    display: block;
+}
+
+.accordion-collapse {
+    border-radius: 20px;
+    border: 2px solid #000;
+    margin-top: -2px;
+}
+
+.accordion-button .number {
+    font-size: 2rem;
+    margin-right: 10px;
+}
+
+.accordion-button .text {
+    font-size: 1rem;
+}
+
+.header-title {
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: #b2ff59;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.header-subtitle {
+    font-size: 1rem;
+    margin-left: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.team-header {
+    background-color: #ccff00;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.team-description {
+    margin-left: 20px;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.team-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.team-card img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+
+.team-card .info {
+    flex: 1;
+}
+
+.team-card .name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.team-card .position {
+    font-size: 14px;
+    color: #666;
+}
+
+.team-card .divider {
+    border-top: 1px solid #ddd;
+    margin: 10px 0;
+}
+
+.team-card .description {
+    font-size: 14px;
+}
+
+.team-card .linkedin {
+    font-size: 20px;
+    color: #0077b5;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.testimonial-container {
+    width: 100%;
+    max-width: 1000px;
+    position: relative;
+    margin-top: 100px;
+}
+
+.testimonial-header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    position: absolute;
+    top: -120px;
+    left: 0;
+    right: 0;
+}
+
+.testimonial-header h1 {
+    background-color: #d4ff00;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.testimonial-header p {
+    font-size: 16px;
+    margin: 0;
+}
+
+.carousel {
+    background-color: #1a1a1a;
+    padding: 30px 0;
+    border-radius: 20px;
+    position: relative;
+    width: 100%;
+}
+
+.carousel-item {
+    color: #ffffff;
+    font-size: 18px;
+    padding: 40px;
+    border: 1px solid #d4ff00;
+    border-radius: 10px;
+    margin: 0 auto;
+    max-width: 800px;
+    position: relative;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item::before {
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 10px;
+    border-style: solid;
+    border-color: #1a1a1a transparent transparent transparent;
+}
+
+.carousel-item.active {
+    display: block;
+}
+
+.carousel-item h5 {
+    color: #d4ff00;
+    margin-top: 20px;
+}
+
+.carousel-item p {
+    font-size: 14px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+}
+
+.carousel-indicators {
+    position: static;
+    margin-top: 20px;
+}
+
+.carousel-indicators li {
+    background-color: #d4ff00;
+}
+
+.carousel-indicators .active {
+    background-color: #ffffff;
+}
